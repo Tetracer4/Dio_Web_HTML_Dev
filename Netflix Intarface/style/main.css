@@ -13,7 +13,7 @@
 
 body{
    background: var(--black);
-   font-family:'Times New Roman', Times, serif;
+   font-family:'Helvetica Neue', sans-serif, Times;
    color: white;
 }
 
@@ -27,7 +27,7 @@ header .container{
 header .logo{
     margin-left: 5px;
     color: var(--red);
-    font-family: 'Arial Black', Times;
+    font-family: 'Helvetica Neue', sans-serif, Times;
     font-size: 40px;
 }
 
@@ -58,8 +58,8 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    font-family: 'Helvetica Neue', sans-serif, Times;
+    font-size: 14px;
 }
 
 .filme-principal .titulo {
@@ -102,4 +102,8 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
 }
